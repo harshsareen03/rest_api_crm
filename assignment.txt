@@ -54,7 +54,7 @@ Endpoint:
   ```
   GET /books/{book_id}
   ```
-* If book not found → return `404`
+If book not found → return `404`
 
 Hint
 
@@ -84,8 +84,8 @@ Accept JSON body:
 }
 ```
 
-* Return created book with `id`
-* Use status code `201`
+Return created book with `id`
+Use status code `201`
 Hint
 
 Use `Pydantic BaseModel`
@@ -100,13 +100,13 @@ Update an existing resource.
 
 Requirements
 
-* Endpoint:
+Endpoint:
 
   ```
   PUT /books/{book_id}
   ```
-* Update title & author
-* If book not found → `404`
+Update title & author
+If book not found → `404`
 
 Hint
 
@@ -191,7 +191,7 @@ Design future-proof REST APIs.
 
 Requirements
 
-* Create:
+Create:
 
 ```
 /api/v1/books
@@ -231,9 +231,9 @@ DELETE /users/{id}
 
 Add:
 
-* Pagination
-* Filtering
-* Search
+Pagination
+Filtering
+Search
 
 
 
